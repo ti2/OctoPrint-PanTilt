@@ -33,7 +33,7 @@ $(function() {
 
         self.createPanel = function() {
             var panel = $("<!-- ko allowBindings: false --><div id='control_pantilt'></div><!-- /ko -->");
-            panel.append($("<h1>Webcam Pan/Tilt</h1>"));
+            panel.append($("<h1>Head Pan/Tilt</h1>"));
 
             var buttons = $("<div style='margin-right: 20px'></div>");
             buttons.append(self.createButton("left"));
