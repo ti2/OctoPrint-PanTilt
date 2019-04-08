@@ -153,7 +153,7 @@ class PantiltPlugin(octoprint.plugin.SettingsPlugin,
 				# version check: github repository
 				type="github_release",
 				user="ti2",
-				repo="OctoPrint-PanTilt",
+				repo="OctoPrint-PanTilt_ti2",
 				current=self._plugin_version,
 
 				# update method: pip
